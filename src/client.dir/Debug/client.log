@@ -1,0 +1,4 @@
+﻿  main.cpp
+B:\Github\http-client\src\main.cpp(23,67): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+B:\Github\http-client\src\main.cpp(26,40): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  client.vcxproj -> B:\Github\http-client\src\Debug\client.exe

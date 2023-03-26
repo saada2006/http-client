@@ -1,0 +1,3 @@
+B:/Github/http-client/CMakeFiles/ALL_BUILD.dir
+B:/Github/http-client/CMakeFiles/ZERO_CHECK.dir
+B:/Github/http-client/src/CMakeFiles/client.dir

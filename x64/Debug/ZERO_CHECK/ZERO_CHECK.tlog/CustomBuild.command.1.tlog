@@ -1,0 +1,10 @@
+^B:\GITHUB\HTTP-CLIENT\CMAKEFILES\ED27FED721884A416A2B1A00F2FDD24F\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SB:/Github/http-client -BB:/Github/http-client --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file B:/Github/http-client/http-client.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
